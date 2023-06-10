@@ -13,7 +13,7 @@ export default function IndexPage() {
           Design beautiful screenshots <br className="hidden sm:inline" />
           for your tweets and posts.
         </h1>
-        <div className="flex gap-3">
+        <div className="flex gap-3 mb-3">
           <Link href={"https://doubleapy.gumroad.com/l/mlaemx"}>
             <Button>Download</Button>
           </Link>
@@ -21,7 +21,7 @@ export default function IndexPage() {
             <Button variant={"outline"}>Github</Button>
           </Link>
         </div>
-        <p className=" max-w-[700px] text-lg text-muted-foreground xs: text-center ">
+        <p className=" max-w-[700px] text-lg text-muted-foreground mb-3 xs: text-center ">
           Make your boring screenshots look neat and clean now in Windows
         </p>
         <img
@@ -34,6 +34,32 @@ export default function IndexPage() {
             <Feature key={index} title={e.title} desc={e.desc} url={e.url} />
           )
         })}
+
+        {/* <div className="flex gap-2 justify-center items-center mt-8">
+          <img src="tweak.png" alt="" width={"30px"} />
+          <p className=" font-extrabold text-3xl">Tweak</p>
+        </div>
+        <div className="flex gap-6 mt-7 justify-center items-center">
+          <Link href={"https://twitter.com/aakashsuresh62"}>
+            <p>Contact</p>
+          </Link>
+          <Link href={"/FAQ"}>
+            <p>FAQ</p>
+          </Link>
+          <Link href={"/terms"}>
+            <p>Terms & Conditions</p>
+          </Link>
+          <Link href={"/policy"}>
+            <p>Privacy Policy</p>
+          </Link>
+        </div>
+        <Link href={"https://portfolio-aa.vercel.app/"}>
+          <div className=" flex gap-2">
+            <p className=" text-muted-foreground">Made by Minimal Mind</p>
+            <img src="logo.png" alt="logo" width={"30px"} />
+          </div>
+        </Link> */}
+      
       </div>
     </section>
   )
