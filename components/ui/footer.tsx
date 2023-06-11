@@ -8,7 +8,7 @@ function Footer() {
         <img src="tweak.png" alt="" width={"30px"} />
         <p className=" font-extrabold text-3xl">Tweak</p>
       </div>
-      <div className="flex gap-6 mt-7 justify-center items-center">
+      <div className="flex gap-6 mt-7 justify-center items-center sm: text-xs ">
         <Link href={"https://twitter.com/aakashsuresh62"}>
           <p>Contact</p>
         </Link>

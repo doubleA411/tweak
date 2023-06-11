@@ -8,8 +8,8 @@ import Feature from "@/components/ui/feature"
 export default function IndexPage() {
   return (
     <section className="flex  justify-center items-center mt-20 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-center gap-3">
-        <h1 className="2xl:text-5xl font-extrabold leading-tight tracking-tighter text-center md:text-4xl xs:text-start text-2xl m-3">
+      <div className="flex max-w-[980px] flex-col items-center gap-3 mx-3">
+        <h1 className="2xl:text-5xl font-extrabold leading-tight tracking-tighter text-center md:text-4xl xs:text-start text-2xl m-4">
           Design beautiful screenshots <br className="hidden sm:inline" />
           for your tweets and posts.
         </h1>

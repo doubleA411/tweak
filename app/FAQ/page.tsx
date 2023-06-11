@@ -9,7 +9,7 @@ export default function FAQPage() {
   return (
     <div className=" flex flex-col justify-center items-center mx-32">
       <p className="my-10 text-3xl font-extrabold ">FAQ</p>
-      <Accordion type="single" collapsible className=" w-[500px]">
+      <Accordion type="single" collapsible className="w-[300px] md:w-[500px]">
         <AccordionItem value="item-1">
           <AccordionTrigger>How to download and install?</AccordionTrigger>
           <AccordionContent>
