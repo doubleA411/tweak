@@ -11,7 +11,7 @@ function Feature({ title, desc, url }: { title: any; desc: any; url: any }) {
       </p>
 
       <video
-        className=" rounded-xl shadow-xl"
+        className=" rounded-xl shadow-xl dark:shadow-violet-950"
         autoPlay
         muted
         loop
