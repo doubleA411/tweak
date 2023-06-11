@@ -2,13 +2,11 @@ import React from "react"
 
 function Feature({ title, desc, url }: { title: any; desc: any; url: any }) {
   return (
-    <div className="flex-col lg: mt-32">
-      <p className="sm: text-2xl lg:text-4xl font-extrabold text-center mb-4">
+    <div className="lg: mt-32 flex-col">
+      <p className="sm: mb-4 text-center text-2xl font-extrabold lg:text-4xl">
         {title}
       </p>
-      <p className="text-sm mb-10 text-muted-foreground text-center">
-        {desc}
-      </p>
+      <p className="mb-10 text-center text-sm text-muted-foreground">{desc}</p>
 
       <video
         className=" rounded-xl shadow-xl dark:shadow-violet-950"

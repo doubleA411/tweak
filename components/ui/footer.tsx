@@ -4,12 +4,12 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex gap-2 justify-center items-center mt-8">
+    <div className="flex flex-col items-center justify-center">
+      <div className="mt-8 flex items-center justify-center gap-2">
         <Image src="/tweak.png" alt="tweak" width={40} height={30} />
-        <p className=" font-extrabold text-3xl">Tweak</p>
+        <p className=" text-3xl font-extrabold">Tweak</p>
       </div>
-      <div className="flex gap-6 mt-7 justify-center items-center sm: text-xs ">
+      <div className="sm: mt-7 flex items-center justify-center gap-6 text-xs ">
         <Link href={"https://twitter.com/aakashsuresh62"}>
           <p>Contact</p>
         </Link>

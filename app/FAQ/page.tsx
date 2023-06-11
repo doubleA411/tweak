@@ -7,7 +7,7 @@ import {
 
 export default function FAQPage() {
   return (
-    <div className=" flex flex-col justify-center items-center mx-32">
+    <div className=" mx-32 flex flex-col items-center justify-center">
       <p className="my-10 text-3xl font-extrabold ">FAQ</p>
       <Accordion type="single" collapsible className="w-[300px] md:w-[500px]">
         <AccordionItem value="item-1">
@@ -26,7 +26,8 @@ export default function FAQPage() {
         <AccordionItem value="item-3">
           <AccordionTrigger>Is this tool paid?</AccordionTrigger>
           <AccordionContent>
-            The answer is no and yes, If you want the product at no cost you can. Anyway if you want to tip me something i'd appreciate it.
+            The answer is no and yes, If you want the product at no cost you
+            can. Anyway if you want to tip me something id appreciate it.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">

@@ -1,6 +1,7 @@
 /** @type {import('prettier').Config} */
 module.exports = {
   endOfLine: "lf",
+  tailwindConfig: "./tailwind.config.js",
   semi: false,
   singleQuote: false,
   tabWidth: 2,
