@@ -1,11 +1,12 @@
 import React from "react"
+import Image from "next/image"
 import Link from "next/link"
 
 function Footer() {
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="flex gap-2 justify-center items-center mt-8">
-        <img src="tweak.png" alt="" width={"30px"} />
+        <Image src="/tweak.png" alt="tweak" width={40} height={30} />
         <p className=" font-extrabold text-3xl">Tweak</p>
       </div>
       <div className="flex gap-6 mt-7 justify-center items-center sm: text-xs ">
@@ -25,7 +26,7 @@ function Footer() {
       <Link href={"https://portfolio-aa.vercel.app/"} className="my-10">
         <div className=" flex gap-2">
           <p className=" text-muted-foreground">Made by Minimal Mind</p>
-          <img src="logo.png" alt="logo" width={"30px"} />
+          <Image src="/logo.png" alt="logo" width={35} height={30} />
         </div>
       </Link>
     </div>

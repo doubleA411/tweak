@@ -26,8 +26,7 @@ export default function FAQPage() {
         <AccordionItem value="item-3">
           <AccordionTrigger>Is this tool paid?</AccordionTrigger>
           <AccordionContent>
-            The answer is no and yes, If you want the product at no cost you
-            can. Anyway if you want to tip me something i'd appreciate it.
+            The answer is no and yes, If you want the product at no cost you can. Anyway if you want to tip me something i'd appreciate it.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">

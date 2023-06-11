@@ -2,8 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Tweak",
-  description:
-    "Create beautiful screenshots for your tweets and posts.",
+  description: "Create beautiful screenshots for your tweets and posts.",
   mainNav: [
     {
       title: "Home",
@@ -11,12 +10,11 @@ export const siteConfig = {
     },
     {
       title: "FAQ",
-      href: "/FAQ"
-    }
+      href: "/FAQ",
+    },
   ],
   links: {
     twitter: "https://twitter.com/aakashsuresh62",
     github: "https://github.com/doubleA411",
-    docs: "https://ui.shadcn.com",
   },
 }

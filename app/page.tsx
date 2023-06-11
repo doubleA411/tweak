@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 import { data } from "@/config/data"
@@ -24,8 +25,10 @@ export default function IndexPage() {
         <p className=" max-w-[700px] text-lg text-muted-foreground mb-3 xs: text-center ">
           Make your boring screenshots look neat and clean now in Windows
         </p>
-        <img
-          src="https://public-files.gumroad.com/ij588hwj8hqsxeh73h7kjo0nl8qz"
+        <Image
+          src="/banner.jpeg"
+          width={1200}
+          height={500}
           alt=""
           className=" rounded-lg"
         />
@@ -34,8 +37,6 @@ export default function IndexPage() {
             <Feature key={index} title={e.title} desc={e.desc} url={e.url} />
           )
         })}
-
-     
       </div>
     </section>
   )
