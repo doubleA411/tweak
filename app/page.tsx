@@ -18,9 +18,6 @@ export default function IndexPage() {
           <Link href={"https://doubleapy.gumroad.com/l/mlaemx"}>
             <Button>Download</Button>
           </Link>
-          <Link href={""}>
-            <Button variant={"outline"}>Github</Button>
-          </Link>
         </div>
         <p className=" xs: mb-3 max-w-[700px] text-center text-lg text-muted-foreground ">
           Make your boring screenshots look neat and clean now in Windows
