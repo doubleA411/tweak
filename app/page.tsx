@@ -23,11 +23,11 @@ export default function IndexPage() {
           href="https://www.producthunt.com/posts/tweak-6?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tweak&#0045;6"
           target="_blank"
         >
-          <img
+          <Image
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=400148&theme=neutral"
-            alt="Tweak - Make&#0032;Beautiful&#0032;Screenshots | Product Hunt"
-            width="250"
-            height="54"
+            alt="Tweak - Make Beautiful Screenshots | Product Hunt"
+            width={250}
+            height={54}
           />
         </a>
         <p className=" xs: mb-3 max-w-[700px] text-center text-lg text-muted-foreground ">
