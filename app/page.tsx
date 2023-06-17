@@ -19,6 +19,17 @@ export default function IndexPage() {
             <Button>Download</Button>
           </Link>
         </div>
+        <a
+          href="https://www.producthunt.com/posts/tweak-6?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tweak&#0045;6"
+          target="_blank"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=400148&theme=neutral"
+            alt="Tweak - Make&#0032;Beautiful&#0032;Screenshots | Product Hunt"
+            width="250"
+            height="54"
+          />
+        </a>
         <p className=" xs: mb-3 max-w-[700px] text-center text-lg text-muted-foreground ">
           Make your boring screenshots look neat and clean now in Windows
         </p>
