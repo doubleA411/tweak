@@ -22,6 +22,7 @@ export default function IndexPage() {
         <a
           href="https://www.producthunt.com/posts/tweak-6?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tweak&#0045;6"
           target="_blank"
+          rel="noreferrer"
         >
           <Image
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=400148&theme=neutral"
