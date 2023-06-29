@@ -29,4 +29,10 @@ export const data = [
     desc: " Your snap needs to be stored to use it. Not that much fast i know :(",
     url: "/6.mp4",
   },
+
+  {
+    title: "Copy Snaps Instantly",
+    desc: "Available for Pro Users only",
+    url: "/7.mp4",
+  },
 ]
