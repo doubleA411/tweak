@@ -4,6 +4,7 @@ import Link from "next/link"
 import { data } from "@/config/data"
 import { Button } from "@/components/ui/button"
 import Feature from "@/components/ui/feature"
+import PayCard from "@/components/ui/paycard"
 
 // public\1.mp4
 export default function IndexPage() {
@@ -14,9 +15,10 @@ export default function IndexPage() {
           Design beautiful screenshots <br className="hidden sm:inline" />
           for your tweets and posts.
         </h1>
+        <p>Windows Exclusive</p>
         <div className="mb-3 flex gap-3">
           <Link href={"https://doubleapy.gumroad.com/l/mlaemx"}>
-            <Button>Download</Button>
+            <Button>Download </Button>
           </Link>
         </div>
         <a
@@ -46,6 +48,23 @@ export default function IndexPage() {
             <Feature key={index} title={e.title} desc={e.desc} url={e.url} />
           )
         })}
+        <h1 className="m-10 text-2xl font-bold md:text-3xl">
+          Choose your variant
+        </h1>
+        <div className="flex flex-col gap-20 md:flex-row">
+          <PayCard
+            title={"Pro"}
+            desc={"Get Exclusive Benefits"}
+            price={6.99}
+            feature={["Copy Snaps Instantly", "Get rid-off Watermark"]}
+          />
+          <PayCard
+            title={"Noob"}
+            desc={"Get Some Benefits"}
+            price={0}
+            feature={["Save Snaps Locally", "Watermark , Here I'm"]}
+          />
+        </div>
       </div>
     </section>
   )
