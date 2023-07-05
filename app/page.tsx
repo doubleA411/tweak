@@ -15,7 +15,7 @@ export default function IndexPage() {
           Design beautiful screenshots <br className="hidden sm:inline" />
           for your tweets and posts.
         </h1>
-        <p>Windows Exclusive</p>
+        <p className="text-muted-foreground font-bold">Windows Exclusive</p>
         <div className="mb-3 flex gap-3">
           <Link href={"https://doubleapy.gumroad.com/l/mlaemx"}>
             <Button>Download </Button>
@@ -55,14 +55,14 @@ export default function IndexPage() {
           <PayCard
             title={"Pro"}
             desc={"Get Exclusive Benefits"}
-            price={6.99}
-            feature={["Copy Snaps Instantly", "Get rid-off Watermark"]}
+            price={7}
+            feature={["No Watermark", "Copy Snaps Instantly"]}
           />
           <PayCard
             title={"Noob"}
             desc={"Get Some Benefits"}
             price={0}
-            feature={["Save Snaps Locally", "Watermark , Here I'm"]}
+            feature={["Watermark", "Save Snaps Locally"]}
           />
         </div>
       </div>

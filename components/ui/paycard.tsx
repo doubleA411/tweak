@@ -21,7 +21,7 @@ function PayCard({
 }) {
   return (
     <div>
-      <Card className="p-5 rounded-xl">
+      <Card className=" rounded-xl w-[200px]">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{desc}</CardDescription>
