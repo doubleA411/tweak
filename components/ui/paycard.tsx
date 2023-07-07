@@ -21,7 +21,7 @@ function PayCard({
 }) {
   return (
     <div>
-      <Card className=" rounded-xl w-[200px]">
+      <Card className=" w-[200px] rounded-xl">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{desc}</CardDescription>
@@ -33,7 +33,10 @@ function PayCard({
             })}
           </ul>
 
-          <h1 className=" mt-10 text-4xl font-bold">${price}</h1>
+          <h1 className="flex items-baseline mt-10 text-4xl font-bold">
+            ${price}
+            <p className=" text-sm">/Onetime</p>
+          </h1>
         </CardContent>
       </Card>
     </div>
