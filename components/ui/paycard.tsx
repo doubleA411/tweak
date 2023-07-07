@@ -1,9 +1,12 @@
 import React from "react"
+import Link from "next/link"
 
+import { Button } from "./button"
 import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "./card"
@@ -33,11 +36,16 @@ function PayCard({
             })}
           </ul>
 
-          <h1 className="flex items-baseline mt-10 text-4xl font-bold">
+          <h1 className="mt-10 flex items-baseline text-4xl font-bold">
             ${price}
             <p className=" text-sm">/Onetime</p>
           </h1>
         </CardContent>
+        <CardFooter>
+          <Link href={"https://doubleapy.gumroad.com/l/mlaemx"}>
+            <Button>Download </Button>
+          </Link>
+        </CardFooter>
       </Card>
     </div>
   )
